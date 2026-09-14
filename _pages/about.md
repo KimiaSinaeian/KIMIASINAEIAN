@@ -14,8 +14,8 @@ My research uses molecular dynamics simulations, rare-event sampling, high-throu
 Research interests
 ======
 
+- Antifreeze proteins and peptides
 - Ice nucleation and crystal growth
-- Antifreeze proteins and biomolecular interfaces
 - Molecular dynamics and enhanced sampling
 - Statistical thermodynamics and soft matter
 - Machine learning for molecular simulation
