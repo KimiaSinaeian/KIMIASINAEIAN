@@ -1,28 +1,28 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "Kimia Sinaeian"
 title_separator          : "-"
 name                     : &name "Kimia Sinaeian"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+description              : &description "PhD candidate in Chemical Engineering at Yale University studying ice nucleation, antifreeze proteins, and molecular simulation."
+url                      : "https://kimiasinaeian.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "KimiaSinaeian/KimiaSinaeian.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "kimia-sinaeian.jpg"
+  name             : "Kimia Sinaeian"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "New Haven"
+  bio              : "PhD Candidate in Chemical Engineering"
+  location         : "New Haven, Connecticut"
   employer         : "Yale University"
-  uri              : # URL
-  email            : "none@example.org" 
+  uri              : "https://haji-akbari.yale.edu/profile/kimia-sinaeian"
+  email            : "kimia.sinaeian@yale.edu"
 
   # Academic websites
   academia         : # URL
@@ -30,11 +30,11 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=Xns4WGcAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-7273-8608"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "http://pubmed.ncbi.nlm.nih.gov/?term=Sinaeian+K&cauthor_id=40260800"
-  researchgate     : "https://www.researchgate.net/scientific-contributions/Kimia-Sinaeian-2309254362"
+  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Sinaeian+K&cauthor_id=40260800"
+  researchgate     : "https://www.researchgate.net/profile/Kimia-Sinaeian"
   scopus           : # URL
   zotero           : # URL
 
@@ -43,13 +43,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "KimiaSinaeian"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "Kimia Sinaeian" # Username
+  linkedin         : "kimia-sinaeian-8430b9156" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -135,14 +135,17 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "og.png" # Social media default site image
+og_description           : "Research in molecular simulation, ice nucleation, and antifreeze proteins."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Kimia Sinaeian"
+  links:
+    - "https://github.com/KimiaSinaeian"
+    - "https://www.linkedin.com/in/kimia-sinaeian-8430b9156"
+    - "https://orcid.org/0000-0002-7273-8608"
 
 
 # Analytics
@@ -178,6 +181,7 @@ exclude:
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
   - Rakefile
