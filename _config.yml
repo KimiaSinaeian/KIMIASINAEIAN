@@ -33,8 +33,8 @@ author:
   orcid            : "https://orcid.org/yourorcidurl"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  pubmed           : "http://pubmed.ncbi.nlm.nih.gov/?term=Sinaeian+K&cauthor_id=40260800"
+  researchgate     : "https://www.researchgate.net/scientific-contributions/Kimia-Sinaeian-2309254362"
   scopus           : # URL
   zotero           : # URL
 
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/kimia-sinaeian-8430b9156/ "# Username
+  linkedin         : "Kimia Sinaeian" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -258,7 +258,7 @@ defaults:
       comments: true
   # _publications
   - scope:
-      path: ""
+      path: "https://pubs.aip.org/aip/jcp/article/162/16/164102/3344862/The-impact-of-hydration-shell-inclusion-and-chain?utm_source=researchgate.net&utm_medium=article"
       type: publications
     values:
       layout: single
