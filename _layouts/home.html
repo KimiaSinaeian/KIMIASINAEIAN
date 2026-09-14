@@ -1,0 +1,161 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+  <body class="portfolio-home">
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <main id="main" class="portfolio-main">
+      <section class="portfolio-hero" id="home" aria-labelledby="hero-title">
+        <div class="portfolio-hero__grid">
+          <div class="portfolio-hero__copy">
+            <p class="eyebrow">Chemical engineering · Yale University</p>
+            <h1 id="hero-title">Kimia<br><span>Sinaeian</span></h1>
+            <p class="hero-lede">I study how ice forms, grows, and interacts with biological molecules.</p>
+            <p class="hero-detail">PhD candidate in the Computational Soft Matter Group, using molecular simulation, rare-event sampling, and machine learning to make complex phase transitions easier to understand.</p>
+            <div class="hero-actions">
+              <a class="button button--light" href="#research">Explore my research <span aria-hidden="true">↓</span></a>
+              <a class="text-link text-link--light" href="{{ base_path }}/cv/">View CV <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <div class="portfolio-hero__portrait">
+            <div class="portrait-frame">
+              <img src="{{ base_path }}/images/kimia-sinaeian.jpg" alt="Portrait of Kimia Sinaeian">
+            </div>
+            <p class="portrait-caption">Computational soft matter<br>New Haven, Connecticut</p>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#research" aria-label="Scroll to research"><span></span> Scroll to explore</a>
+      </section>
+
+      <section class="portfolio-section portfolio-section--cream" id="research" aria-labelledby="research-title">
+        <div class="section-heading">
+          <p class="eyebrow eyebrow--navy">01 / Research</p>
+          <h2 id="research-title">Following the<br><em>molecular story</em> of ice.</h2>
+          <p>My work connects molecular-scale interactions to the collective behavior of water. I combine simulation and data-driven analysis to study ice nucleation and the molecules that control it.</p>
+        </div>
+        <div class="research-cards">
+          <article class="research-card research-card--ice">
+            <span class="research-card__number">01</span>
+            <span class="research-card__mark" aria-hidden="true">✳</span>
+            <h3>Ice nucleation</h3>
+            <p>Understanding the molecular mechanisms behind homogeneous and heterogeneous ice formation.</p>
+            <span class="research-card__tag">Phase transitions</span>
+          </article>
+          <article class="research-card research-card--protein">
+            <span class="research-card__number">02</span>
+            <span class="research-card__mark" aria-hidden="true">◌</span>
+            <h3>Antifreeze proteins</h3>
+            <p>Investigating how proteins and peptide mimics interact with ice–water interfaces.</p>
+            <span class="research-card__tag">Biomolecular design</span>
+          </article>
+          <article class="research-card research-card--simulation">
+            <span class="research-card__number">03</span>
+            <span class="research-card__mark" aria-hidden="true">⌁</span>
+            <h3>Molecular simulation</h3>
+            <p>Building better reaction coordinates with high-throughput analysis and machine learning.</p>
+            <span class="research-card__tag">Methods &amp; computation</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="portfolio-section portfolio-section--navy" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading section-heading--light">
+          <p class="eyebrow">02 / Selected publication</p>
+          <h2 id="publications-title">A closer look at<br><em>better coordinates.</em></h2>
+        </div>
+        {% assign featured_publication = site.publications | first %}
+        <article class="publication-feature">
+          <div class="publication-feature__year">2025</div>
+          <div class="publication-feature__body">
+            <p class="publication-feature__venue">{{ featured_publication.venue }}</p>
+            <h3>{{ featured_publication.title }}</h3>
+            <p>{{ featured_publication.excerpt }}</p>
+            <a class="text-link text-link--light" href="{{ featured_publication.paperurl }}">Read the journal article <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="publication-feature__index" aria-hidden="true">01<span>/01</span></div>
+        </article>
+        <a class="section-cta" href="{{ base_path }}/publications/">Browse all publications <span aria-hidden="true">→</span></a>
+      </section>
+
+      <section class="portfolio-section portfolio-section--cream" id="skills" aria-labelledby="skills-title">
+        <div class="split-layout">
+          <div class="section-heading">
+            <p class="eyebrow eyebrow--navy">03 / Skills &amp; leadership</p>
+            <h2 id="skills-title">Tools for<br><em>curious minds.</em></h2>
+          </div>
+          <div class="skills-content">
+            <div class="skill-group">
+              <h3>Scientific computing</h3>
+              <p>Python · C++ · MATLAB · Linux · Bash · GROMACS · LAMMPS · PLUMED · VMD · PyMOL</p>
+            </div>
+            <div class="skill-group">
+              <h3>Methods</h3>
+              <p>Molecular dynamics · Replica exchange MD · Umbrella sampling · Monte Carlo · Statistical thermodynamics</p>
+            </div>
+            <div class="skill-group">
+              <h3>Leadership &amp; service</h3>
+              <p>STEM Career Fellow · Advanced Graduate Leadership Program · Graduate Professional Experience Fellow · Alumni Chair, GradSWE</p>
+            </div>
+          </div>
+        </div>
+        <a class="button button--navy" href="{{ base_path }}/cv/">See the full CV <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="portfolio-section portfolio-section--red" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading section-heading--light">
+          <p class="eyebrow">04 / Projects</p>
+          <h2 id="projects-title">Research is a<br><em>team sport.</em></h2>
+          <p>From simulation workflows to machine-learning analysis, I care about building methods that are rigorous, reusable, and open to collaboration.</p>
+        </div>
+        <div class="project-list">
+          <div class="project-row"><span>01</span><strong>Reaction coordinates for ice nucleation</strong><span class="project-row__type">Current research</span></div>
+          <div class="project-row"><span>02</span><strong>Antifreeze proteins at ice–water interfaces</strong><span class="project-row__type">Current research</span></div>
+          <div class="project-row"><span>03</span><strong>High-throughput molecular simulation analysis</strong><span class="project-row__type">Methods</span></div>
+        </div>
+      </section>
+
+      <section class="portfolio-section portfolio-section--cream" id="pictures" aria-labelledby="pictures-title">
+        <div class="section-heading">
+          <p class="eyebrow eyebrow--navy">05 / Pictures</p>
+          <h2 id="pictures-title">A little<br><em>off the grid.</em></h2>
+        </div>
+        <div class="picture-grid">
+          <figure class="picture-grid__feature">
+            <img src="{{ base_path }}/images/kimia-sinaeian.jpg" alt="Kimia Sinaeian">
+            <figcaption>Kimia Sinaeian · Yale University</figcaption>
+          </figure>
+          <div class="picture-grid__note">
+            <span aria-hidden="true">✳</span>
+            <p>Beyond research, I enjoy learning languages, gardening, cooking, and playing board games with friends and family.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-section portfolio-section--navy portfolio-contact" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading section-heading--light">
+          <p class="eyebrow">06 / Contact</p>
+          <h2 id="contact-title">Let’s talk<br><em>about the work.</em></h2>
+        </div>
+        <div class="contact-grid">
+          <a href="mailto:kimia.sinaeian@yale.edu"><span>Email</span>kimia.sinaeian@yale.edu</a>
+          <a href="https://haji-akbari.yale.edu/profile/kimia-sinaeian"><span>Profile</span>Yale · Computational Soft Matter</a>
+          <a href="{{ site.author.googlescholar }}"><span>Scholar</span>Google Scholar ↗</a>
+        </div>
+      </section>
+    </main>
+
+    <div class="page__footer portfolio-footer"><footer>{% include footer/custom.html %}{% include footer.html %}</footer></div>
+    {% include scripts.html %}
+    <script src="{{ base_path }}/assets/js/portfolio.js"></script>
+  </body>
+</html>

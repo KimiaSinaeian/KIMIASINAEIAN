@@ -10,9 +10,17 @@
 main:
   - title: "About"
     url: /
-
+  - title: "Research"
+    url: /#research
   - title: "Publications"
     url: /publications/
-
+  - title: "Skills"
+    url: /#skills
+  - title: "Projects"
+    url: /#projects
+  - title: "Pictures"
+    url: /#pictures
+  - title: "Contact"
+    url: /#contact
   - title: "CV"
     url: /cv/
