@@ -30,6 +30,7 @@ Selected leadership and service
 - STEM Career Fellow, Yale Office of Career Strategy
 - Advanced Graduate Leadership Program, Yale Engineering
 - Graduate Professional Experience Fellow, Yale Office of International Students & Scholars
+- Alumni Chair, Graduate Student Women in Engineering (GradSWE), Yale University
 
 Methods and tools
 ======
