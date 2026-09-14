@@ -11,54 +11,37 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
+- **PhD candidate, Chemical Engineering**, Yale University, 2022–present
+- **BS, Chemical Engineering**, University of Tehran
+
+Research
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Graduate Researcher, Computational Soft Matter Group — Yale University**
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+- Study homogeneous and heterogeneous ice nucleation using molecular dynamics and rare-event sampling.
+- Investigate the interactions between antifreeze proteins and ice-water interfaces.
+- Apply high-throughput analysis and machine-learning methods to improve reaction coordinates for molecular simulation.
+
+Selected leadership and service
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+- STEM Career Fellow, Yale Office of Career Strategy
+- Advanced Graduate Leadership Program, Yale Engineering
+- Graduate Professional Experience Fellow, Yale Office of International Students & Scholars
+
+Methods and tools
+======
+
+- Molecular dynamics and rare-event simulation
+- Statistical thermodynamics and soft-matter modeling
+- High-throughput data analysis and machine learning
+- Scientific computing with Python
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
