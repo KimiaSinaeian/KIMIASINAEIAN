@@ -40,6 +40,14 @@ Methods and tools
 - High-throughput data analysis and machine learning
 - Scientific computing with Python
 
+Skills
+======
+
+- **Programming:** Python, C++, MATLAB, Linux, Bash
+- **Scientific Computing:** GROMACS, LAMMPS, PLUMED, VMD, PyMOL, Molecular Dynamics, Replica Exchange MD, Umbrella Sampling, Monte Carlo
+- **Data & ML:** AlphaFold, scikit-learn, PyTorch, data pipelines, SHAP, feature engineering, model evaluation
+- **Infrastructure & Workflow:** HPC, SLURM, job arrays, reproducible analysis pipelines, workflow automation, file-schema standardization, performance profiling
+
 Publications
 ======
 
