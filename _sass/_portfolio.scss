@@ -1,14 +1,18 @@
 /* Kimia Sinaeian portfolio system */
-$portfolio-red: #de2d26;
-$portfolio-navy: #253494;
-$portfolio-ice: #dff4f7;
+$portfolio-red: #b86f4d;
+$portfolio-navy: #1f3d55;
+$portfolio-ice: #dcecf3;
+$portfolio-teal: #c9e4e1;
+$portfolio-warm: #e8ddd0;
 $portfolio-cream: #f5f1e9;
-$portfolio-ink: #17213f;
+$portfolio-ink: #172b3d;
 
 .portfolio-home {
   --portfolio-red: #{$portfolio-red};
   --portfolio-navy: #{$portfolio-navy};
   --portfolio-cream: #{$portfolio-cream};
+  --portfolio-teal: #{$portfolio-teal};
+  --portfolio-warm: #{$portfolio-warm};
   --portfolio-ink: #{$portfolio-ink};
   background: $portfolio-cream;
   color: $portfolio-ink;
@@ -51,8 +55,9 @@ $portfolio-ink: #17213f;
 }
 
 .portfolio-main { margin: 0 0 0 220px; padding: 0; }
-.portfolio-hero { min-height: 100vh; color: white; background: linear-gradient(120deg, rgba(222,45,38,.72), rgba(37,52,148,.68)), url('/images/afp-kimia.jpg') center 38% / cover; padding: clamp(5rem, 10vw, 9rem) clamp(2rem, 8vw, 9rem) 3rem; position: relative; overflow: hidden; }
-.portfolio-hero::after { content: ""; position: absolute; width: 38vw; height: 38vw; max-width: 600px; max-height: 600px; border: 1px solid rgba(255,255,255,.25); border-radius: 50%; right: -10vw; top: -10vw; }
+.portfolio-hero { min-height: 100vh; color: white; background: linear-gradient(120deg, rgba(20, 50, 74, .9), rgba(44, 108, 113, .72)), url('/images/snowflakes.jpeg') center 42% / cover; padding: clamp(5rem, 10vw, 9rem) clamp(2rem, 8vw, 9rem) 3rem; position: relative; overflow: hidden; }
+.portfolio-hero::before { content: ""; position: absolute; inset: 0; background: url('/images/afp-kimia.jpg') center 38% / cover; opacity: .2; mix-blend-mode: screen; pointer-events: none; }
+.portfolio-hero::after { content: ""; position: absolute; width: 38vw; height: 38vw; max-width: 600px; max-height: 600px; border: 1px solid rgba(255,255,255,.25); border-radius: 50%; right: -10vw; top: -10vw; pointer-events: none; }
 .portfolio-hero__grid { max-width: 1280px; min-height: 78vh; margin: auto; display: grid; grid-template-columns: 1fr; gap: 4rem; align-items: center; position: relative; z-index: 1; }
 .eyebrow { font-size: .7rem; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; margin: 0 0 1.7rem; }
 .eyebrow--navy { color: $portfolio-navy; }
@@ -67,7 +72,7 @@ $portfolio-ink: #17213f;
 .button--navy { color: white; background: $portfolio-navy; }
 .text-link { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: .25rem; }
 .text-link--light { color: white; }
-.scroll-cue { position: absolute; bottom: 2.5rem; left: 8vw; display: flex; align-items: center; gap: .8rem; color: white; text-decoration: none; text-transform: uppercase; letter-spacing: .12em; font-size: .63rem; }
+.scroll-cue { position: absolute; bottom: 2.5rem; left: 8vw; z-index: 1; display: flex; align-items: center; gap: .8rem; color: white; text-decoration: none; text-transform: uppercase; letter-spacing: .12em; font-size: .63rem; }
 .scroll-cue span { display: block; width: 32px; height: 1px; background: white; }
 .portfolio-section { padding: clamp(5rem, 10vw, 9rem) clamp(2rem, 8vw, 9rem); }
 .portfolio-section--cream { background: $portfolio-cream; }
@@ -80,9 +85,9 @@ $portfolio-ink: #17213f;
 .section-heading--light .eyebrow { color: rgba(255,255,255,.75); }
 .research-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; max-width: 1280px; margin: auto; }
 .research-card { min-height: 350px; padding: 1.5rem; display: flex; flex-direction: column; border-top: 4px solid; position: relative; }
-.research-card--ice { background: $portfolio-ice; border-color: #78c8d0; color: $portfolio-navy; }
-.research-card--protein { background: #f3dfc3; border-color: #dc9860; color: #753e2a; }
-.research-card--simulation { background: #dedff2; border-color: #777bc1; color: $portfolio-navy; }
+.research-card--ice { background: $portfolio-ice; border-color: #72b7c4; color: $portfolio-navy; }
+.research-card--protein { background: $portfolio-warm; border-color: #b98d72; color: #5d4032; }
+.research-card--simulation { background: $portfolio-teal; border-color: #5c9f9b; color: $portfolio-navy; }
 .research-card__number { font-size: .7rem; font-weight: 700; }
 .research-card__mark { font-size: 4rem; line-height: 1; margin: auto 0 1rem; }
 .research-card h3 { font-size: 1.45rem; margin: 0 0 .6rem; }
@@ -110,7 +115,7 @@ $portfolio-ink: #17213f;
 .picture-grid figure { margin: 0; }
 .picture-grid img { display: block; width: 100%; aspect-ratio: 1.5; object-fit: cover; }
 .picture-grid figcaption { font-size: .65rem; text-transform: uppercase; letter-spacing: .1em; margin-top: .8rem; }
-.picture-grid__note { min-height: 100%; padding: 2rem; background: $portfolio-ice; color: $portfolio-navy; display: flex; flex-direction: column; justify-content: space-between; }
+.picture-grid__note { min-height: 100%; padding: 2rem; background: $portfolio-teal; color: $portfolio-navy; display: flex; flex-direction: column; justify-content: space-between; }
 .picture-grid__note span { font-size: 4rem; }
 .picture-grid__note p { font-size: 1.15rem; max-width: 300px; }
 .picture-grid__note .text-link span { font-size: .7em; }
