@@ -103,14 +103,19 @@ $portfolio-ink: #172b3d;
 .section-cta { display: block; max-width: 1280px; margin: 2rem auto 0; color: white; text-decoration: none; text-transform: uppercase; letter-spacing: .1em; font-size: .7rem; }
 .split-layout { max-width: 1280px; margin: auto; display: grid; grid-template-columns: .8fr 1.2fr; gap: 10vw; }
 .skills-content { border-top: 1px solid rgba(37,52,148,.25); }
+.skills-subsection + .skills-subsection { margin-top: 2rem; }
+.skills-subsection > h3, .project-subsection > h3 { font-size: 1.15rem; color: $portfolio-navy; margin: 0; }
 .skill-group { padding: 1.2rem 0; border-bottom: 1px solid rgba(37,52,148,.25); }
-.skill-group h3 { font-size: 1rem; color: $portfolio-navy; margin: 0 0 .5rem; }
+.skill-group h4 { font-size: 1rem; color: $portfolio-navy; margin: 0 0 .5rem; }
 .skill-group p { font-size: .9rem; max-width: 610px; margin: 0; }
 .split-layout + .button { margin-top: 3rem; }
 .project-list { max-width: 1280px; margin: auto; border-top: 1px solid rgba(255,255,255,.45); }
 .project-row { display: grid; grid-template-columns: 50px 1fr 150px; gap: 1rem; align-items: center; padding: 1.4rem 0; border-bottom: 1px solid rgba(255,255,255,.45); font-size: .85rem; }
 .project-row > span:first-child, .project-row__type { font-size: .65rem; text-transform: uppercase; letter-spacing: .1em; opacity: .7; }
 .project-row__type { text-align: right; }
+.project-subsection { max-width: 1280px; margin: 3rem auto 0; }
+.project-subsection > h3 { color: white; margin-bottom: 1rem; }
+.project-list--empty { min-height: 1px; }
 .picture-grid { max-width: 1280px; display: grid; grid-template-columns: 1.2fr .8fr; gap: 1rem; margin: auto; }
 .picture-grid figure { margin: 0; }
 .picture-grid img { display: block; width: 100%; aspect-ratio: 1.5; object-fit: cover; }
