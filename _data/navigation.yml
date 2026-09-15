@@ -9,18 +9,25 @@
 
 main:
   - title: "Home / About"
-    url: /
+    url: /#home
+    section_id: home
   - title: "Research"
     url: /#research
+    section_id: research
   - title: "Publications"
     url: /publications/
+    section_id: publications
   - title: "Skills"
     url: /#skills
+    section_id: skills
   - title: "Projects"
     url: /#projects
+    section_id: projects
   - title: "About me"
     url: /#pictures
+    section_id: pictures
   - title: "Contact"
     url: /#contact
+    section_id: contact
   - title: "CV"
     url: /cv/

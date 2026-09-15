@@ -39,6 +39,7 @@ $portfolio-ink: #17213f;
 .portfolio-home .masthead__menu-item:not(.masthead__menu-item--lg):not(.tail) a { display: block; color: rgba(255,255,255,.78); font-size: .72rem; font-weight: 600; letter-spacing: .08em; line-height: 1.4; text-transform: uppercase; margin: 0; padding: .65rem 1.25rem; }
 .portfolio-home .masthead__menu-item:not(.masthead__menu-item--lg):not(.tail) a:hover, .portfolio-home .masthead__menu-item.selected a { color: white; background: rgba(255,255,255,.1); }
 .portfolio-home .masthead__menu-item.selected a { border: 0; }
+.portfolio-home .masthead__menu-item a:focus-visible, .portfolio-home .greedy-nav button:focus-visible { outline: 2px solid white; outline-offset: -2px; }
 .portfolio-home .masthead__menu-item.tail { margin-top: auto; padding: 1.4rem 0; text-align: center; }
 .portfolio-home #theme-toggle a { color: white; cursor: pointer; }
 .portfolio-home .greedy-nav button { display: none; }
