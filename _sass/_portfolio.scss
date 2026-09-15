@@ -43,7 +43,7 @@ $portfolio-ink: #17213f;
 .portfolio-home .greedy-nav button { display: none; }
 
 .portfolio-main { margin: 0 0 0 94px; padding: 0; }
-.portfolio-hero { min-height: 100vh; color: white; background: linear-gradient(120deg, rgba(222,45,38,.94), rgba(37,52,148,.88)), url('/images/afp-kimia.jpg') center / cover; padding: clamp(5rem, 10vw, 9rem) clamp(2rem, 8vw, 9rem) 3rem; position: relative; overflow: hidden; }
+.portfolio-hero { min-height: 100vh; color: white; background: linear-gradient(120deg, rgba(222,45,38,.72), rgba(37,52,148,.68)), url('/images/afp-kimia.jpg') center 38% / cover; padding: clamp(5rem, 10vw, 9rem) clamp(2rem, 8vw, 9rem) 3rem; position: relative; overflow: hidden; }
 .portfolio-hero::after { content: ""; position: absolute; width: 38vw; height: 38vw; max-width: 600px; max-height: 600px; border: 1px solid rgba(255,255,255,.25); border-radius: 50%; right: -10vw; top: -10vw; }
 .portfolio-hero__grid { max-width: 1280px; min-height: 78vh; margin: auto; display: grid; grid-template-columns: 1.2fr .8fr; gap: 4rem; align-items: center; position: relative; z-index: 1; }
 .eyebrow { font-size: .7rem; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; margin: 0 0 1.7rem; }
