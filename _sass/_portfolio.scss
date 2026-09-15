@@ -112,6 +112,7 @@ $portfolio-ink: #17213f;
 .picture-grid__note { min-height: 100%; padding: 2rem; background: $portfolio-ice; color: $portfolio-navy; display: flex; flex-direction: column; justify-content: space-between; }
 .picture-grid__note span { font-size: 4rem; }
 .picture-grid__note p { font-size: 1.15rem; max-width: 300px; }
+.picture-grid__note .text-link span { font-size: .7em; }
 .contact-grid { max-width: 1280px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; border-top: 1px solid rgba(255,255,255,.35); padding-top: 1.5rem; }
 .contact-grid a { color: white; text-decoration: none; font-size: .85rem; }
 .contact-grid a span { display: block; opacity: .6; text-transform: uppercase; letter-spacing: .12em; font-size: .62rem; margin-bottom: .5rem; }
